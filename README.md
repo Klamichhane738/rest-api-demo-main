@@ -1,31 +1,31 @@
-# Flask REST API Demo
+# Flask REST API for Student Management
 
-This project demonstrates a simple REST API built with Python's Flask framework. The API performs CRUD (Create, Read, Update, Delete) operations on user data, which can be tested locally and deployed to Azure App Service for cloud hosting.
+This project demonstrates a simple REST API built with Python's Flask framework. The API performs CRUD (Create, Read, Update, Delete) operations on student data, which can be tested locally and deployed to Azure App Service for cloud hosting.
 
 ## Features
 
-- Retrieve all users
-- Retrieve a specific user by ID
-- Create a new user
-- Update an existing user
-- Delete a user
+- **Retrieve all students**: Get a list of all students.
+- **Retrieve a specific student by ID**: Fetch details of a student by their unique ID.
+- **Create a new student**: Add a new student record.
+- **Update an existing student**: Modify details of an existing student by ID.
+- **Delete a student**: Remove a student record by ID.
 
 ## Prerequisites
 
-Before you can run or deploy this app, you need to have the following installed:
+Before you can run or deploy this app, ensure you have the following installed:
 
-- Python 3.x
-- pip (Python package manager)
-- Flask (`pip install Flask`)
-- gunicorn (`pip install gunicorn`)
-- Azure CLI (optional, for deployment)
+- **Python 3.x**
+- **pip** (Python package manager)
+- **Flask** (Install using `pip install Flask`)
+- **gunicorn** (Install using `pip install gunicorn`)
+- **Azure CLI** (optional, for deployment to Azure)
 
 ## Project Structure
 
-- app.py: Main Flask application 
-- requirements.txt: List of Python dependencies 
-- test-api.http: Test the REST API using the REST Client extension in Visual Studio Code
-- README.md: Documentation
+- **app.py**: Main Flask application for handling API requests.
+- **requirements.txt**: List of Python dependencies needed for the project.
+- **test-api.http**: File for testing the REST API endpoints using the REST Client extension in Visual Studio Code.
+- **README.md**: Documentation for the project.
 
 ## Running Locally
 
