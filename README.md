@@ -34,7 +34,7 @@ To run the Flask API on your local machine:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/ramymohamed10/rest-api-demo.git
+   git clone https://github.com/Klamichhane738/rest-api-demo-main.git
    
 2. Navigate to the project directory:
    ```bash
