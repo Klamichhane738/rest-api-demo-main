@@ -11,30 +11,30 @@ Accept: application/json
 ###
 
 # GET all users
-GET http://localhost:8000/users
+GET http://localhost:8000/students
 Accept: application/json
 
 ###
 
 # GET a specific user by ID
-GET http://localhost:8000/users/1
+GET http://localhost:8000/students/1
 Accept: application/json
 
 ###
 
 # POST create a new user
-POST http://localhost:8000/users
+POST http://localhost:8000/students
 Content-Type: application/json
 
 {
-  "name": "Charlie",
-  "age": 22
+  "name": "Keshav",
+  "age": 25
 }
 
 ###
 
 # PUT update a user by ID
-PUT http://localhost:8000/users/1
+PUT http://localhost:8000/students/1
 Content-Type: application/json
 
 {
@@ -45,4 +45,4 @@ Content-Type: application/json
 ###
 
 # DELETE a user by ID
-DELETE http://localhost:8000/users/1
+DELETE http://localhost:8000/students/1
